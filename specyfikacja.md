@@ -143,5 +143,9 @@ _Słownik pojęć_
 
 ####
 
+#### Diagram
+
+![alt text](https://github.com/medi98r/CoPijemy/blob/main/diagram_v.0.1.PNG "Diagram")
+
 
 ####
