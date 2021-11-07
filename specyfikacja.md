@@ -1,6 +1,6 @@
 # **SpecyFikacja Wymagań**
 
-**dla Co Pijemy?**
+**dla „Co Pijemy?**
 
 Wersja 0.1
 
