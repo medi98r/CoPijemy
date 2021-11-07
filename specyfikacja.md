@@ -8,21 +8,22 @@ Autorzy: Bartosz Medoń, Dominik Radwan, Piotr Zaremba
 
 **Spis treści**
 
-[1.Wprowadzenie 2](#_Toc9557035)
+[1.Wprowadzenie ](#_Toc9557035)
 
-[1.1.Opis systemu 2](#_Toc9557036)
+[1.1.Opis systemu ](#_Toc9557036)
 
-[1.2.Słownik pojęć 2](#_Toc9557037)
+[1.2.Słownik pojęć ](#_Toc9557037)
 
-[2.Model procesów biznesowych 3](#_Toc9557038)
+[2.Model procesów biznesowych ](#_Toc9557038)
 
-[2.1.Obiekty biznesowe 3](#_Toc9557039)
+[2.1.Obiekty biznesowe ](#_Toc9557039)
 
-[3.Wymagania funkcjonalne 5](#_Toc9557041)
+[3.Wymagania funkcjonalne ](#_Toc9557041)
 
-[4.Wymagania niefunkcjonalne 7](#_Toc9557042)
+[4.Wymagania niefunkcjonalne ](#_Toc9557042)
 
-1.
+[5.Diagram](#_Toc9557042)
+
 #### Wprowadzenie
 
   1.
@@ -37,10 +38,10 @@ _Słownik pojęć_
 - _ **Katalog –** zbiór przepisów użytkownika_
 - _ **Przepis –** przepis wyszukiwany ze względu na wybrany filtr._
 
-1.
+  2.
 #### Model procesów biznesowych
 
-  1.
+  2.1.
 ##### Obiekty biznesowe
 
 | Nazwa: | **Katalog** |
@@ -51,7 +52,7 @@ _Słownik pojęć_
 | --- | --- |
 | Opis: | Cały zbiór różnych przepisów, na bieżąco aktualizowanych. Przepisy wyświetlają się użytkownikowi, który wybrał odpowiednie dla siebie filtry. |
 
-1.
+  3.
 #### Wymagania funkcjonalne
 
 | ID: | **Identyfikator wymagania** |
@@ -110,7 +111,7 @@ _Słownik pojęć_
 | Rola: | WSZYSCY |
 | Opis: | Użytkownik ma możliwość zakupu wersji premium systemu, która likwiduje reklamy oraz daje dostęp do wielu dodatkowych treści. |
 
-1.
+4.
 #### Wymagania niefunkcjonalne
 
 | ID: |**Identyfikator wymagania** |
@@ -137,11 +138,8 @@ _Słownik pojęć_
 | Priorytet: | ŚREDNI |
 | Opis: | Platforma powinna szybko ładować przepisy. |
 
-####
-
+5.
 #### Diagram
 
 ![alt text](https://github.com/medi98r/CoPijemy/blob/main/diagram_v.0.1.PNG "Diagram")
 
-
-####
