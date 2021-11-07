@@ -113,29 +113,25 @@ _Słownik pojęć_
 1.
 #### Wymagania niefunkcjonalne
 
-| ID: |
- |
+| ID: |**Identyfikator wymagania** |
 | --- | --- |
 | Nazwa: | **Wielojęzyczność systemu** |
 | Priorytet: | WYSOKI |
 | Opis: | System ma być dostępny w co najmniej 3 językach i dostarczać możliwość dodania kolejnych w prosty sposób. |
 
-| ID: |
- |
+| ID: |**Identyfikator wymagania** |
 | --- | --- |
 | Nazwa: | **Integralność danych** |
 | Priorytet: | WYSOKI |
 | Opis: | Zabezpieczenie przed nieautoryzowaną zmianą danych przez użycie szyfrowania haseł oraz implementacja szyfrowanego połączenia https. |
 
-| ID: |
- |
+| ID: |**Identyfikator wymagania** |
 | --- | --- |
 | Nazwa: | **Łatwość użycia** |
 | Priorytet: | ŚREDNI |
 | Opis: | Platforma ma być przyjazna dla użytkownika. Interfejs musi być nowoczesny i przejrzysty. |
 
-| ID: |
- |
+| ID: |**Identyfikator wymagania** |
 | --- | --- |
 | Nazwa: | **Szybkość działania** |
 | Priorytet: | ŚREDNI |
