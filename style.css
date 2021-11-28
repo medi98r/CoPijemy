@@ -1,1 +1,21 @@
+*{box-sizing: border-box;}
+body
+{
+ background-color: white; 
+}
 
+.container
+{
+  background-color: darkgrey;
+	margin: auto;
+	width: 100%;
+}
+
+.header
+{
+  border: 2px solid black;
+	font-size: 21px;
+	text-align: center;
+	padding-top: 80px;
+	height: 201px;
+}
