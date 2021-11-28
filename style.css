@@ -6,16 +6,81 @@ body
 
 .container
 {
-  background-color: darkgrey;
+	background-color: darkgrey;
 	margin: auto;
 	width: 100%;
 }
 
 .header
 {
-  border: 2px solid black;
-	font-size: 21px;
+	border: 2px solid black;
+	font-size: 72px;
 	text-align: center;
+	background-image: url(img/tlo.svg);
 	padding-top: 80px;
 	height: 201px;
 }
+.navigation
+{
+	border: 2px solid black;
+	border-top: none;
+	padding: 9px;
+	text-align: center;
+	background-image: url(img/tlo.svg);
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+@media only screen and (min-width: 768px) {
+.navigation
+{
+	border: 2px solid black;
+	border-top: none;
+	padding: 10px;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+ol
+{
+	font-size: 20px;
+	height: 35px;
+	line-height: 200%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+ol a
+{
+	display: block;
+}
+ol > li
+{
+	float: left;
+	width: 250px;
+	height: 40px;
+	border-right: 1px dashed grey;
+}
+
+
+ol > li:first-child
+{
+	border-left: 1px dashed grey
+}
+
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+a:visited
+{
+	color: black;
+}
+a:hover
+{
+	color: grey;
+}
+
