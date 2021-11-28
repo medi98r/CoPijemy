@@ -72,3 +72,4 @@ if (isset($_POST["wyslane"])) {
 </div>
  
 <?php include('footer.php'); ?>
+
