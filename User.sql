@@ -1,0 +1,6 @@
+CREATE TABLE `user` (
+  `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `login` VARCHAR(50) COLLATE utf8_polish_ci NOT NULL,
+  `haslo` VARCHAR(32) COLLATE utf8_polish_ci NOT NULL,
+  `email` VARCHAR(120) COLLATE utf8_polish_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
