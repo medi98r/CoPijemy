@@ -32,7 +32,7 @@
 		Pin:<br/><input type="password" name="pin"/> <br/>
 		<input type="submit" value="Zaloguj się"/>
 		</form>
-	  <a href="rejestracja.php">Rejestracja - Załóż darmowe konto</a>
+	  <a href="rejestracja.php">Rejestracja - Załóż darmowe konto!</a>
 		<br/><br/>
 	  </div>
     </div>
