@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+
+:root {
+  --color-text: hsl(248, 10%, 40%);
+  --color-text-muted: hsl(248, 10%, 40%);
+  --color-purple: slateblue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+  color: var(--color-text);
+  background: hsl(248, 53%, 95%);
+  font-family: "Hind", sans-serif;
+}
+
+.accordion {
+  width: 42rem;
+  padding: 1.2rem 0;
+  border-radius: 1rem;
+  background: white;
+/*   box-shadow: 0 0 5rem lightgrey; */
+}
+
+.accordion__heading {
+  margin-bottom: 1rem;
+  padding: 0 1.4rem;
+}
+
+.accordion__item:not(:last-child) {
+  border-bottom: 1px solid lightgrey;
+}
+
+.accordion__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  background: white;
+  border: none;
+  outline: none;
+  color: var(--color-text);
+  font-size: 1.2rem;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.accordion__btn:hover {
+  color: var(--color-purple);
+  background: hsl(248, 53%, 97%);
+}
