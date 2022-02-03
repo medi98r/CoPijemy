@@ -43,12 +43,14 @@ describe('testGrams', () => {
 
 //test filtrowania
 
-//1. Testowanie dezaktywacji pola do wpisania nazwy drinka po filtrowaniu:
+//1. Testowanie dezaktywacji pola do wpisania nazwy drinka po filtrowaniu i aktywacji po resecie filtrów:
 
 describe('Filtrowanie', () => {
 	it('test powinien spowodwać zmienie stanu pola "find" na disabled', () =>{
 		Filtrowanie();
 		expect(find.disabled == true)
+		Reset();
+		expect(find.disabled == false)
 	})
 })
 
